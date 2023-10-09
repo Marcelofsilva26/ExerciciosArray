@@ -1,7 +1,5 @@
 #Faça um código para ler um valor N qualquer (que será o tamanho dos vetores). Após, ler dois vetores A e B (de tamanho N cada um) e depoisa rmazenar em um terceiro vetor Soma a soma dos elementos do vetor A com os do vetor B(respeitando as mesmas posições) e escrever ovetor Soma.
 n = int(input("Digite o tamanho dos vetores: "))
-
-# Inicializar os vetores A, B e Soma com tamanho N
 a = []
 b = []
 soma = []
@@ -12,7 +10,6 @@ for i in range(n):
     valor = float(input(f"Digite o {i+1}º valor: "))
     a.append(valor)
 
-# Ler os valores para o vetor B
 print("\nDigite os valores para o vetor B:")
 for i in range(n):
     valor = float(input(f"Digite o {i+1}º valor: "))
@@ -24,4 +21,4 @@ for i in range(n):
     soma.append(somaelemento)
 
 
-print("\nO vetor Soma é:", soma)
+print("O vetor Soma é:", soma)
